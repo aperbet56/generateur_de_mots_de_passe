@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon générateur de mot de passe</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mon générateur de mots de passe</h1>
+      <p class="details">
+        Avec notre générateur de mots de passe, créez instantanément des mots de
+        passe forts et aléatoires en un clic pour une sécurité en ligne optimale
+        de tous vos compte.
+      </p>
+    </header>
+    <main class="main__content">
+      <section class="password-generator">
+        <h2>Générer un mot de passe</h2>
+        <div class="box">
+          <div class="password__box">
+            <input type="text" id="password" readonly />
+            <button id="copy-password__btn">
+              <i class="fa fa-clone"></i>
+            </button>
+          </div>
+          <div class="controls">
+            <div class="range">
+              <label for="password-length__input">
+                <span>Longueur du mot de passe</span>
+                <span id="password-length__value">10</span>
+              </label>
+              <input
+                type="range"
+                min="8"
+                max="20"
+                value="10"
+                id="password-length__input"
+              />
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" id="uppercase" />
+              <label for="uppercase">Doit inclure des majuscules</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" id="lowercase" checked />
+              <label for="lowercase">Doit inclure des minuscules</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" id="numbers" />
+              <label for="numbers">Doit inclure des nombres</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" id="special" />
+              <label for="special">Doit inclure des symboles (%$@_)</label>
+            </div>
+            <button id="generate-password__btn">Générer le mot de passe</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span>Site créé par aperbet56</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
