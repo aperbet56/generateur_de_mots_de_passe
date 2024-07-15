@@ -6,7 +6,7 @@ Mon objectif a été de créer une application simple de génération de mots de
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/generateur_de_mots_de_passe/
 
 ## Développez avec
 
