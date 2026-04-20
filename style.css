@@ -11,6 +11,20 @@
 	outline: none;
 }
 
+/**** Firefox ****/
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+/**** Chrome ****/
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
 /**** Style général de la page ****/
 
 body {
