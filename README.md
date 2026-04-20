@@ -1,5 +1,7 @@
 ## GENERATEUR DE MOTS DE PASSE
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Mon objectif a été de créer une application simple de génération de mots de passe en HTML5, CSS3 et JavaScript. L'utilisateur va pouvoir choisir la longueur de son mot de passe, si son mot de passe doit inclure des majuscules, des minuscules, des chiffres et de symboles spéciaux. Enfin, l'internaute va pouvoir également copier le mot de passe dans le presse-papiers en cliquant sur le bouton "Copier".
