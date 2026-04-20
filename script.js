@@ -10,7 +10,7 @@ const copyPasswordBtn = document.querySelector("#copy-password__btn");
 
 // Ecoute de l'événement "click" sur le bouton
 generatePasswordBtn.addEventListener("click", () => {
-  const length = passwordLengthInput.value;
+  const length = +passwordLengthInput.value;
   const lowercase = lowercaseCheckbox.checked;
   const uppercase = uppercaseCheckbox.checked;
   const numbers = numbersCheckbox.checked;
